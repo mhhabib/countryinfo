@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap");
+
+body {
+  background-color: #0d1117;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  font-family: "Lora", serif;
+}
+.header {
+  background-color: #161b22;
+}
+.serachzone {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+input {
+  padding: 10px 25px;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #161b22;
+  border: none;
+  outline: none;
+  margin-bottom: 50px;
+}
+::placeholder {
+  color: #fff;
+  font-size: 1rem;
+}
+
+select {
+  padding: 10px 25px;
+  background-color: #161b22;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #fff;
+  margin-bottom: 50px;
+}
+.dataloading {
+  background-color: #54b435;
+  border: 1px solid #379237;
+  border-radius: 20px;
+  padding: 5px 30px;
+  text-align: center;
+  color: #fff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.dataerror {
+  background-color: #850000;
+  border: 1px solid #5a0101;
+  border-radius: 20px;
+  padding: 5px 30px;
+  text-align: center;
+  color: #fff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.countryinfo {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 2rem;
+  row-gap: 2rem;
+  margin-bottom: 50px;
+}
+.card {
+  background-color: #161b22;
+  border: 2px solid #161b22;
+}
+.card img {
+  width: 100%;
+  height: 150px;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+button {
+  background-color: #161b22;
+  color: #fff;
+  padding: 5px 25px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-bottom: 50px;
+}
+.country__info {
+  margin-top: 50px;
+}
+.country__info .dataloading {
+  width: 40%;
+}
+.country__info .dataerror {
+  width: 40%;
+}
+.footer a {
+  color: #379237;
+  font-weight: 700;
+}
+.countryCard img {
+  width: 100%;
+  height: 260px;
+}
